@@ -1,0 +1,161 @@
+#pojemnik {
+	position: relative;
+	top: -25px;
+	width: 850px;
+	height: 670px;
+	margin: 0 auto;
+	background-color: rgb(38,40,46,0.8);
+	border-radius: 25px;
+	font-family: 'Lobster', sans-serif;
+	-webkit-box-shadow: 0px 0px 20px 12px rgba(0,0,0,1);
+	-moz-box-shadow: 0px 0px 20px 12px rgba(0,0,0,1);
+	box-shadow: 0px 0px 20px 12px rgba(0,0,0,1);
+	color: #209781;
+    font-size: 28px;
+}
+#linkgwint {
+	color: #209781; 
+	text-decoration: none;
+}
+#linkgwint:visited {
+	color: #209781; 
+}
+#linkgwint:active {
+	color: #209781; 
+}
+#linkgwint:hover {
+	color: #E9B64A; 
+}
+#h1gwint {
+	font-size: 64px;
+	font-weight: 400;
+	text-align: center;
+	letter-spacing: 5px;
+	margin-top: 20px;
+	margin-bottom: 0px;
+}
+#pgwint {
+	text-align: center;
+	margin-top: 5px;
+	margin-bottom: 25px;
+	letter-spacing: 2px;
+}
+.pole {
+	width: 600px;
+	margin: 0 auto;
+	text-align: center;
+}
+.karta {
+	width: 125px;
+	height: 125px;
+	display: inline-block;
+	margin: 3px;
+	background-image: url(../PICTURES/PAMIEC/karta.png);
+	border: 4px solid #51c8b2;
+	border-radius: 4px;
+	cursor: pointer;
+	transition: all 0.4s ease-in-out;
+	filter: brightness(70%);
+}
+.karta:hover {
+	border: 4px solid #e9b64a;
+	filter: brightness(100%);
+}
+.kartaA {
+	width: 125px;
+	height: 125px;
+	display: inline-block;
+	margin: 3px;
+	background-image: url(../PICTURES/PAMIEC/karta.png);
+	border: 4px solid #e9b64a;
+	border-radius: 4px;
+	cursor: pointer;
+	transition: all 0.4s ease-in-out;
+	filter: brightness(100%);
+}
+.wynik {
+	margin-top: 5px;
+	letter-spacing: 2px;	
+}
+#spangwint {
+	cursor: pointer;
+	word-spacing: 4px;
+	font-size: 35px;
+}
+#spangwint:hover {
+	color: #E9B64A; 
+}
+.lewy {
+	position: relative;
+	float: center;
+	width: 100%;
+	z-index: 1;
+	margin: 0;
+}
+.prawy {
+	display: none;
+}
+#podpis {
+	position: relative;
+	top: -20px;
+	display: block;
+	text-align: center;
+}
+
+/* 1470 down */
+@media (max-width: 1470px) {
+
+}
+
+/* tablety średnie kompy */
+@media (min-width: 992px) and (max-width: 1300px) {
+#podpis {
+	top: -20px;
+}
+}
+
+/* Mój telefon */
+/* tablety małe kompy */
+@media (max-width: 991px) {	
+#pojemnik {
+	width: 750px;
+}
+#podpis {
+	top: -20px;
+}
+}
+
+/* tablety i telefony */
+@media  (max-width: 775px) {
+.lewy {
+	display: none;
+}
+.prawy {
+	position: relative;
+	float: center;
+	width: 100%;
+	z-index: 1;
+	margin: 0;
+	display: block;
+	text-align: center;
+}
+}
+
+/* mniejsze */
+@media (max-width: 550px) {
+.lewy {
+	display: none;
+}
+.prawy {
+	position: relative;
+	float: center;
+	width: 100%;
+	z-index: 1;
+	margin: 0;
+	display: block;
+	text-align: center;
+}
+.tresc {
+	height: 100%;
+}
+}

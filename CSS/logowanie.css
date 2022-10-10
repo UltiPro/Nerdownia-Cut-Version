@@ -1,0 +1,113 @@
+body {
+	margin: 0;
+	padding: 0;	
+}
+.statycznetlo {
+	z-index: 1;
+	position: fixed;
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	width: 100%;
+}
+.szerokosctla {
+	width: 100%;
+	height: 100%;
+}
+.loginbox {
+	position: relative;
+	top: 180px;
+	width: 35%;
+	height: 200px;
+	margin-left: auto;
+	margin-right: auto;
+	z-index: 200;
+	border-radius: 15px;
+	text-align: center;
+	font-size: 25px;
+	background-color: rgb(140, 140, 140, 0.8);
+}
+.loginform {
+	position: relative;
+	top: 40px;
+}
+.boxtext {
+	position: relative;
+	top: -5px;
+	width: 200px;
+	background-color: #a6a6a6;
+	border-color: black;
+	border-radius: 5px;
+	text-align: center;
+	outline: none;
+}
+.boxtext:focus {
+	-webkit-box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.75);
+	box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.75);
+}
+.zaloguj {
+	position: relative;
+	width: 300px;
+	background-color: white;
+	border-color: black;
+	border-radius: 5px;
+	outline: none;
+	height: 45px;
+	transition: all 0.3s ease-in-out;
+	margin-top: 15px;
+	font-size: 20px;
+}
+.zaloguj:hover {
+	color: white;
+	background-color: grey;
+	transform: scale(0.95);
+}
+.error {
+	position: relative;
+	top: 50px;
+	color: red;
+	text-shadow: black 0.1em 0.1em 0.2em;
+}
+
+/* 1440 down */
+@media (max-width: 1440px) {
+
+}
+
+/* tablety średnie kompy */
+@media (min-width: 992px) and (max-width: 1300px) {
+.loginbox {
+	width: 40%;
+}
+}
+
+/* Mój telefon */
+/* tablety małe kompy */
+@media (max-width: 991px) {	
+.loginbox {
+	width: 42%;
+}
+.error {
+	position: relative;
+	top: 50px;
+	font-size: 0.9em;
+}
+}
+
+/* tablety i telefony */
+@media  (max-width: 775px) {
+.loginbox {
+	width: 44%;
+	font-size: 23px;
+}
+}
+
+/* mniejsze */
+@media (max-width: 550px) {
+.loginbox {
+	width: 46%;
+	font-size: 22px;
+	display: block;
+}
+}

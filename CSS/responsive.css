@@ -1,0 +1,266 @@
+/* 1470 down */
+@media (max-width: 1470px) {
+.log {
+	font-size: 23px;
+}
+.rej {
+	font-size: 22px;
+}
+.wyloguj {
+	right: 15px;
+	bottom: -30px;
+	width: 100px;
+}
+.ustawienia {
+	left: -5px;
+	bottom: -30px;
+	width: 100px;
+}
+}
+
+/* tablety średnie kompy */
+@media (min-width: 992px) and (max-width: 1300px) {
+ol {
+	font-size: 16px;
+}
+ol > li:hover > a {
+	font-size: 18px;
+}
+.lewy {
+	position: relative;
+	float: center;
+	width: 90%;
+	z-index: 1;
+	margin: 0;
+	margin-left: 50px;
+	font-size: 1.3em;
+}
+.prawy {
+	position: relative;
+	float: center;
+	width: 90%;
+	z-index: 1;
+	margin: 0;
+	margin-left: 50px;
+	top: 50px;
+	font-size: 1.3em;
+}
+.tytul {
+	font-size: 1.25em;
+	top: 5px;
+}
+.loginbox {
+	font-size: 13px;
+}
+.log {
+	font-size: 21px;
+	width: 80%;
+}
+.rej {
+	font-size: 19px;
+	width: 80%;
+}
+
+.info {
+	position: relative;
+	top: 10px;
+	width: 75%;
+}
+.infofieldset {
+	font-size: 0.95em;
+}
+.infotext {
+	font-size: 0.95em;
+}
+.wyloguj {
+	left: -5px;
+	bottom: -45px;
+	width: 95px;
+}
+.ustawienia {
+	left: -5px;
+	bottom: -22px;
+	width: 95px;
+}
+}
+
+/* Mój telefon */
+/* tablety małe kompy */
+@media (max-width: 991px) {	
+ol {
+	font-size: 12px;	
+}
+ol > li:hover > a {
+	font-size: 14px;
+}
+.lewy {
+	position: relative;
+	float: center;
+	width: 90%;
+	z-index: 1;
+	margin: 0;
+	margin-left: 50px;
+	font-size: 1.3em;
+}
+.prawy {
+	position: relative;
+	float: center;
+	width: 90%;
+	z-index: 1;
+	margin: 0;
+	margin-left: 50px;
+	top: 50px;
+	font-size: 1.3em;
+}
+.tytul {
+	font-size: 0.9em;
+	top: 20px;
+}
+.loginbox {
+	font-size: 13px;
+	width: 25%;
+}
+.log {
+	font-size: 19px;
+}
+.rej {
+	font-size: 18px;
+}
+.info {
+	position: relative;
+	top: 10px;
+	width: 75%;
+}
+.infofieldset {
+	font-size: 0.95em;
+}
+.infotext {
+	font-size: 0.95em;
+}
+.wyloguj {
+	right: 15px;
+	bottom: -35px;
+	width: 93px;
+}
+.ustawienia {
+	left: -5px;
+	bottom: -35px;
+	width: 93px;
+}
+}
+
+/* tablety i telefony */
+@media (max-width: 775px) {
+ol {
+	font-size: 11px;	
+}
+ol > li:hover > a {
+	font-size: 13px;
+}
+.lewy {
+	position: relative;
+	float: center;
+	width: 90%;
+	z-index: 1;
+	margin: 0;
+	margin-left: 50px;
+	font-size: 1.3em;
+}
+.prawy {
+	position: relative;
+	float: center;
+	width: 90%;
+	z-index: 1;
+	margin: 0;
+	margin-left: 50px;
+	top: 50px;
+	font-size: 1.3em;
+}
+.tytul {
+	font-size: 0.9em;
+	top: 20px;
+}
+.loginbox {
+	font-size: 10px;
+}
+.log {
+	font-size: 17px;
+}
+.rej {
+	font-size: 16px;
+}
+.info {
+	position: relative;
+	top: 10px;
+	width: 75%;
+}
+.infofieldset {
+	font-size: 0.95em;
+}
+.infotext {
+	font-size: 0.95em;
+}
+.wyloguj {
+	left: -5px;
+	bottom: -55px;
+	width: 95px;
+}
+.ustawienia {
+	left: -5px;
+	bottom: -35px;
+	width: 95px;
+}
+}
+
+/* mniejsze */
+@media (max-width: 550px) {
+ol {
+	font-size: 10px;	
+}
+ol > li:hover > a {
+	font-size: 12px;
+}
+.lewy {
+	position: relative;
+	float: center;
+	width: 90%;
+	z-index: 1;
+	margin: 0;
+	margin-left: 50px;
+	font-size: 1.2em;
+}
+.prawy {
+	position: relative;
+	float: center;
+	width: 90%;
+	z-index: 1;
+	margin: 0;
+	margin-left: 50px;
+	top: 50px;
+	font-size: 1.2em;
+}
+.tytul {
+	font-size: 0.9em;
+	top: 20px;
+}
+.loginbox {
+	display: none;
+}
+.log {
+	font-size: 16px;
+}
+.rej {
+	font-size: 15px;
+}
+.info {
+	position: relative;
+	top: 10px;
+	width: 75%;
+}
+.infofieldset {
+	font-size: 0.95em;
+}
+.infotext {
+	font-size: 0.95em;
+}
+}

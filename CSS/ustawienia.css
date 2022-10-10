@@ -1,0 +1,115 @@
+.trescust {
+	position: relative;
+	top: 200px;
+	width: 65%;
+	height: 100%;
+	color: white;
+	margin: 0 auto;
+	text-align: center;
+	padding-bottom: 200px;
+	z-index: 2;
+}
+fieldset {
+	width: 450px;
+	height: 250px;
+	background-color: rgb(153, 153, 153, 0.8);
+	margin: 0 auto;
+	border-radius: 15px;
+	margin-bottom: 25px;
+}
+fieldset > legend {
+	font-size: 25px;
+}
+input[type="text"] {
+	width: 200px;
+	height: 25px;
+	background-color: black;
+	color: white;
+	border-radius: 5px;
+	margin-bottom: 15px;
+	text-align: center;
+	outline: none;
+}
+legend {
+	margin-top: 35px;
+	font-size: 25px;
+}
+input[type="email"] {
+	width: 200px;
+	height: 25px;
+	background-color: black;
+	color: white;
+	border-radius: 5px;
+	text-align: center;
+	outline: none;
+	margin-top: 15px;
+	margin-bottom: 5px;
+}
+input[type="password"] {
+	width: 200px;
+	height: 25px;
+	background-color: black;
+	color: white;
+	border-radius: 5px;
+	margin-top: 15px;
+	margin-bottom: -5px;
+	text-align: center;
+	outline: none;
+}
+input[type="submit"] {
+	width: 125px;
+	height: 30px;
+	background-color: black;
+	color: white;
+	border-radius: 5px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	outline: none;
+	font-weight: 700;
+	transition: all .4s linear;
+}
+input[type="submit"]:hover {
+	transform: rotate(5deg);
+	cursor: pointer;
+}
+#bladustprem {
+	color: rgb(255, 0, 0);
+	font-weight: 700;
+	font-size: 20px;
+}
+#bladustemail {
+	color: rgb(255, 0, 0);
+	font-weight: 700;
+	font-size: 20px;
+}
+#bladusthasla {
+	color: rgb(255, 0, 0);
+	font-weight: 700;
+	font-size: 20px;
+}
+
+/* 1470 down */
+@media (max-width: 1470px) {
+
+}
+
+/* tablety średnie kompy */
+@media (min-width: 992px) and (max-width: 1300px) {
+
+}
+
+/* Mój telefon */
+/* tablety małe kompy */
+@media (max-width: 991px) {	
+
+}
+
+/* tablety i telefony */
+@media  (max-width: 775px) {
+
+}
+
+/* mniejsze */
+@media (max-width: 550px) {
+
+}

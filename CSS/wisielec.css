@@ -1,0 +1,185 @@
+#pojemnik {
+	position: relative;
+	top: -25px;
+	width: 1025px;
+	height: 515px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #111111;
+	border-radius: 25px;
+	font-family: Courier New;
+	-webkit-box-shadow: 0px 0px 20px 12px rgba(0,0,0,1);
+	-moz-box-shadow: 0px 0px 20px 12px rgba(0,0,0,1);
+	box-shadow: 0px 0px 20px 12px rgba(0,0,0,1);
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+#plansza {
+	width: 1100px;
+	padding-top: 50px;	
+	margin-top: 50px;
+	margin-bottom: 50px;
+	text-align: center;
+	font-size: 37px;
+	min-height: 60px;
+}
+#szubienica {
+	float: left;
+	width: 550px; 
+	text-align: center; 
+	min-height: 280px;
+}
+#alfabet {
+	position: relative;
+	float: right;
+	right: 50px;	
+	width: 400px; 
+	text-align: center; 
+	min-height: 280px;
+	font-size: 30px;
+}
+.litera 
+{
+	width: 30px;
+	height: 30px;
+	text-align: center;
+	padding: 5px;
+	margin: 5px;
+	border: 3px solid gray;
+	float: left;
+	cursor: pointer;
+	border-radius: 15px;
+}
+.litera:hover
+{
+	background-color: #222222;
+	color: white;
+	border: 3px soild white;
+}
+.reset
+{
+	color: green;
+	cursor: pointer;
+	font-size: 48px;
+}
+.reset:hover
+{
+	color: white;
+}
+.lewy {
+	position: relative;
+	float: center;
+	width: 100%;
+	z-index: 1;
+	margin: 0;
+}
+.prawy {
+	display: none;
+}
+#podpis {
+	position: relative;
+	top: -20px;
+	display: block;
+	text-align: center;
+}
+.koniecwisielca {
+	clear: both;
+}
+#dodatekwisielec {
+	color: red;
+	font-size: 20px;
+}
+.tresc {
+	height: 500px;
+}
+
+/* tablety średnie kompy */
+@media (min-width: 992px) and (max-width: 1300px) {
+.lewy {
+	top: 5em;
+}
+#pojemnik {
+	top: -75px;
+	width: 975px;
+	float: center;
+}
+#plansza {
+	width: 100%;
+	padding-top: 30px;	
+	margin-top: 30px;
+	margin-bottom: 30px;
+	text-align: center;
+	font-size: 34px;
+	min-height: 50px;
+}
+#podpis {
+	top: -65px;
+}
+}
+
+/* Mój telefon */
+/* tablety małe kompy */
+@media (max-width: 991px) {
+.lewy {
+	top: 5em;
+}
+#pojemnik {
+	top: -75px;
+	width: 975px;
+	float: center;
+}
+#plansza {
+	width: 100%;
+	padding-top: 30px;	
+	margin-top: 30px;
+	margin-bottom: 30px;
+	text-align: center;
+	font-size: 34px;
+	min-height: 50px;
+}
+#podpis {
+	top: -65px;
+}
+}
+
+/* tablety i telefony */
+@media  (max-width: 775px) {
+.lewy {
+	display: none;
+}
+.prawy {
+	position: relative;
+	float: center;
+	width: 100%;
+	z-index: 1;
+	margin: 0;
+	display: block;
+	text-align: center;
+}
+.tresc {
+	height: 100%;
+}
+}
+
+/* mniejsze */
+@media (max-width: 550px) {
+.lewy {
+	display: none;
+}
+.prawy {
+	position: relative;
+	float: center;
+	width: 100%;
+	z-index: 1;
+	margin: 0;
+	display: block;
+	text-align: center;
+}
+.tresc {
+	height: 100%;
+}
+}

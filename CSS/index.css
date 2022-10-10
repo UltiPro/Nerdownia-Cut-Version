@@ -1,0 +1,240 @@
+.indextresc {
+	z-index: 400;
+}
+#tytulindex {
+	font-size: 30px;
+	text-align: center;
+	color: white;
+	text-shadow: black 0.1em 0.1em 0.2em;
+	width: 100%;
+}
+.aktualnosci {
+	position: fixed;
+	top: 165px;
+	right: 0px;
+	width: 20%;
+	height: 100%;
+	background-color: rgb(0, 0, 0, 0.5);
+}
+.aktualnosci > a {
+	text-decoration: none;
+	color: white;
+}
+.aktualnoscimniejsze {
+	display: none;
+}
+.aktualnoscimniejsze > a {
+	text-decoration: none;
+	color: white;
+}
+.fsizeakt {
+	font-size: 0.8em;
+	line-height: 1.4em;
+	position: relative;
+	float: left;
+}
+.aktwiencej {
+	position: fixed;
+	bottom: 55px;
+	right: 5px;
+	background-color: black;
+	width: 65px;
+	text-align: center;
+	border-radius: 15px;
+}
+.aktwiencej:hover {
+	background-color: #333333;
+}
+.czasakt {
+	color: #b30000;
+	font-weight: bald;
+}
+.lewemenu {
+	position: fixed;
+	top: 165px;
+	width: 20%;
+	height: 100%;
+	background-color: rgb(0, 0, 0, 0.5);
+}
+.lewemenutekst {
+	position: relative;
+	top: 20px;
+	left: 15px;
+	width: 90%;
+	font-size: 25px;
+	text-align: center;
+	color: #cccc00;
+}
+.ramkalewemenutekst {
+	display: none;
+}
+.cfgacc {
+	
+}
+
+
+/* 1600 down */
+@media (max-width: 1600px) {
+#tytulindex {
+	font-size: 25px;
+}
+.lewemenutekst {
+	font-size: 23px;
+}
+}
+
+/* 1440 down */
+@media (max-width: 1440px) {
+#tytulindex {
+	font-size: 22px;
+}
+.lewemenutekst {
+	font-size: 21px;
+}
+}
+
+/* tablety średnie kompy */
+@media (min-width: 992px) and (max-width: 1300px) {
+#tytulindex {
+	font-size: 19px;
+}
+.fsizeakt {
+	font-size: 0.7em;
+}
+.lewemenutekst {
+	font-size: 19px;
+}
+}
+
+/* Mój telefon */
+/* tablety małe kompy */
+@media (max-width: 991px) {	
+#tytulindex {
+	font-size: 22px;
+	width: 100%;
+}
+.aktualnosci {
+	display: none;
+}
+.aktualnoscimniejsze {
+	display: block;
+	position: relative;
+	left: 10%;
+	top: -220px;
+	width: 80%;
+	height: 100%;
+	background-color: rgb(0, 0, 0, 0.7);
+	margin-bottom: 65px;
+	font-size: 18px;
+}
+.aktwiencej {
+	position: absolute;
+	bottom: 5px;
+	right: 5px;
+}
+.lewemenu {
+	position: relative;
+	left: 10%;
+	top: 350px;
+	width: 80%;
+	height: 100%;
+	background-color: rgb(0, 0, 0, 0.7);
+}
+.lewemenutekst {
+	position: relative;
+	top: 0px;
+	left: 15px;
+	font-size: 18px;
+}
+.ramkalewemenutekst {
+	display: block;
+}
+}
+
+/* tablety i telefony */
+@media (max-width: 775px) {
+#tytulindex {
+	font-size: 18px;
+	width: 100%;
+}
+.aktualnosci {
+	display: none;
+}
+.aktualnoscimniejsze {
+	display: block;
+	position: relative;
+	left: 10%;
+	top: -240px;
+	width: 80%;
+	height: 100%;
+	background-color: rgb(0, 0, 0, 0.7);
+	margin-bottom: 65px;
+	font-size: 18px;
+}
+.aktwiencej {
+	position: absolute;
+	bottom: 5px;
+	right: 5px;
+}
+.lewemenu {
+	position: relative;
+	left: 10%;
+	top: 350px;
+	width: 80%;
+	height: 100%;
+	background-color: rgb(0, 0, 0, 0.7);
+}
+.lewemenutekst {
+	position: relative;
+	top: 0px;
+	left: 15px;
+	font-size: 18px;
+}
+.ramkalewemenutekst {
+	display: block;
+}
+}
+
+/* mniejsze */
+@media (max-width: 550px) {
+#tytulindex {
+	font-size: 18px;
+	width: 100%;
+}
+.aktualnosci {
+	display: none;
+}
+.aktualnoscimniejsze {
+	display: block;
+	position: relative;
+	left: 10%;
+	top: -240px;
+	width: 80%;
+	height: 100%;
+	background-color: rgb(0, 0, 0, 0.7);
+	margin-bottom: 65px;
+	font-size: 18px;
+}
+.aktwiencej {
+	position: absolute;
+	bottom: 5px;
+	right: 5px;
+}
+.lewemenu {
+	position: relative;
+	left: 10%;
+	top: 350px;
+	width: 80%;
+	height: 100%;
+	background-color: rgb(0, 0, 0, 0.7);
+}
+.lewemenutekst {
+	position: relative;
+	top: 0px;
+	left: 15px;
+	font-size: 18px;
+}
+.ramkalewemenutekst {
+	display: block;
+}
+}

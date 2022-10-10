@@ -1,0 +1,397 @@
+.lewy {
+	display: none;
+}
+.prawy {
+	display: none;
+}
+.kontakt {
+	position: relative;
+	top: 100px;
+	display: block;
+	text-align: center;
+	width: 100%;
+}
+.kontakty {
+	font-size: 45px;
+}
+.kontakty2 {
+	display: inline-block;
+}
+.fieldsetkontakt1 {
+	position: relative;
+	top: 25px;
+	float: left;
+	width: 225px;
+	height: 225px;
+	border-radius: 35px;
+	margin: 15px;
+	background-image: URL(../PICTURES/KONTAKT/facebook.png);
+	-webkit-box-shadow: 0px 0px 10px 1px rgba(255,255,255,1);
+	-moz-box-shadow: 0px 0px 10px 1px rgba(255,255,255,1);
+	box-shadow: 0px 0px 10px 1px rgba(255,255,255,1);
+}
+.fieldsetkontakt1:hover {
+	opacity: .7;
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
+}
+.fieldsetkontakt2 {
+	position: relative;
+	top: 25px;
+	float: left;
+	width: 225px;
+	height: 225px;
+	border-radius: 35px;
+	margin: 15px;
+	background-image: URL(../PICTURES/KONTAKT/youtube.png);
+	-webkit-box-shadow: 0px 0px 10px 1px rgba(255,255,255,1);
+	-moz-box-shadow: 0px 0px 10px 1px rgba(255,255,255,1);
+	box-shadow: 0px 0px 10px 1px rgba(255,255,255,1);
+}
+.fieldsetkontakt2:hover {
+	opacity: .7;
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
+}
+.fieldsetkontakt3 {
+	position: relative;
+	top: 25px;
+	float: left;
+	width: 225px;
+	height: 225px;
+	border-radius: 35px;
+	margin: 15px;
+	background-image: URL(../PICTURES/KONTAKT/steam.png);
+	-webkit-box-shadow: 0px 0px 10px 1px rgba(255,255,255,1);
+	-moz-box-shadow: 0px 0px 10px 1px rgba(255,255,255,1);
+	box-shadow: 0px 0px 10px 1px rgba(255,255,255,1);
+}
+.fieldsetkontakt3:hover {
+	opacity: .7;
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
+}
+.fieldsetkontakt4 {
+	position: relative;
+	top: 25px;
+	float: left;
+	width: 225px;
+	height: 225px;
+	border-radius: 35px;
+	margin: 15px;
+	-webkit-box-shadow: 0px 0px 10px 1px rgba(255,255,255,1);
+	-moz-box-shadow: 0px 0px 10px 1px rgba(255,255,255,1);
+	box-shadow: 0px 0px 10px 1px rgba(255,255,255,1);
+}
+.fieldsetkontakt4:hover {
+	opacity: .7;
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
+}
+.fieldsetkontakt5 {
+	position: relative;
+	top: 25px;
+	float: left;
+	width: 225px;
+	height: 225px;
+	border-radius: 35px;
+	margin: 15px;
+	background-image: URL(../PICTURES/KONTAKT/mail.png);
+	-webkit-box-shadow: 0px 0px 10px 1px rgba(255,255,255,1);
+	-moz-box-shadow: 0px 0px 10px 1px rgba(255,255,255,1);
+	box-shadow: 0px 0px 10px 1px rgba(255,255,255,1);
+}
+.fieldsetkontakt5dwa {
+	position: relative;
+	top: 25px;
+	float: left;
+	width: 225px;
+	height: 225px;
+	border-radius: 35px;
+	margin: 15px;
+	background-color: rgb(0, 0, 0, .8);
+	text-decoration: none;
+	color: white;
+	text-align: center;
+	font-size: 16px;
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
+}
+#emailtop {
+	position: relative;
+	height: 50%;
+	top: 40%;
+}
+.fieldsetkontakt5:hover {
+	cursor: pointer;
+}
+.fieldsetkontakt5dwa:hover {
+	cursor: pointer;
+}
+.fieldsetkontakt6 {
+	position: relative;
+	top: 25px;
+	float: left;
+	width: 225px;
+	height: 225px;
+	border-radius: 35px;
+	margin: 15px;
+	background-image: URL(../PICTURES/KONTAKT/tel.png);
+	-webkit-box-shadow: 0px 0px 10px 1px rgba(255,255,255,1);
+	-moz-box-shadow: 0px 0px 10px 1px rgba(255,255,255,1);
+	box-shadow: 0px 0px 10px 1px rgba(255,255,255,1);
+}
+.fieldsetkontakt6dwa {
+	position: relative;
+	top: 25px;
+	float: left;
+	width: 225px;
+	height: 225px;
+	border-radius: 35px;
+	margin: 15px;
+	background-color: rgb(0, 0, 0, .8);
+	text-decoration: none;
+	color: white;
+	text-align: center;
+	font-size: 1em;
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
+}
+#teltop {
+	position: relative;
+	height: 50%;
+	top: 40%;
+}
+.fieldsetkontakt6:hover {
+	cursor: pointer;
+}
+.fieldsetkontakt6dwa:hover {
+	cursor: pointer;
+}
+#koniecfloatleft {
+	clear: both;
+}
+#koniecfloatleft2 {
+	clear: both;
+	display: none;
+}
+#koniecfloatleft3 {
+	clear: both;
+	display: none;
+}
+.formularz {
+	position: absolute;
+	top: -115px;
+	right: 15px;
+	color: white;
+}
+.formularz:hover {
+	opacity: 0.7;
+}
+.formularz-box {
+	position: relative;
+	top: 15px;
+	display: block;
+	text-align: center;
+	width: 100%;
+	margin: 0 auto;
+}
+.formularz-pole {
+	margin: 0 auto;
+	width: 500px;
+	height: 640px;
+	background-image: linear-gradient(to right, black, grey, black);
+	border: 1px solid white;
+	border-radius: 15px;
+	color: white;
+	font-weight: 700;
+	margin-bottom: 0px;
+	padding: 0;
+	margin-bottom: -10%;
+	-webkit-box-shadow: 0px 0px 21px 5px rgba(255,255,255,1);
+	-moz-box-shadow: 0px 0px 21px 5px rgba(255,255,255,1);
+	box-shadow: 0px 0px 21px 5px rgba(255,255,255,1);
+}
+.imieinazwisko {
+	position: relative;
+	top: 15px;
+	display: inline-block;
+}
+input {
+	width: 170px;
+	height: 17px;
+	margin-bottom: 7px;
+	border-radius: 10px;
+	border: 1px solid black;
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 0px;
+	outline: none;
+	padding-left: 10px;
+	box-sizing: border-box;
+}
+#emailinput {
+	width: 255px;
+}
+#wyslij-plik {
+	width: 70%;
+	height: 21px;
+	background: black;
+	border: 1px solid white;
+	color: white;
+	border-radius: 15px;
+	border-top-left-radius: 0px;
+	border-bottom-left-radius: 0px;
+}
+textarea {
+	width: 340px;
+	height: 250px;
+	margin-bottom: 7px;
+	border-radius: 10px;
+	border: 1px solid black;
+	resize: none;
+	outline: none;
+}
+input[type=file] {
+	padding-left: 0px;
+}
+#datatable {
+	text-align: center;
+	height: 21px;
+}
+.formularz-fieldset {
+	margin: 0 auto;
+	width: 65%;
+	text-align: left;
+	border: 1px solid black;
+}
+.formularz-fieldset > label {
+	font-size: 25px;
+}
+.formularz-fieldset > label > input {
+	width: 5%;
+}
+#nick-table {
+	position: relative;
+	top: -3px;
+	width: 175px;
+	text-align: center;
+	display: none;
+	margin: 0 auto;
+	padding-left: 0;
+}
+.formularz-button {
+	position: absolute;
+	bottom: 15px;
+	background-color: black;
+	border: 1px solid white;
+	color: white;
+	border-radius: 15px;
+	width: 200px;
+	height: 35px;
+	font-weight: 700;
+	transition: all 2s linear;
+	margin-top: 25px;
+}
+.formularz-button:hover {
+	background-color: white;
+	border: 1px solid black;
+	color: black;
+}
+
+/* 1695 down */
+@media (max-width: 1695px) {
+#koniecfloatleft2 {
+	clear: both;
+	display: block;
+}
+}
+
+/* tablety średnie kompy */
+@media (min-width: 992px) and (max-width: 1199px) {
+
+}
+
+/* Mój telefon */
+/* tablety małe kompy */
+@media (max-width: 991px) {	
+.kontakt {
+	position: relative;
+	top: 10px;
+	display: block;
+	text-align: center;
+	width: 100%;
+}
+.kontakty {
+	font-size: 45px;
+}
+.kontakty2 {
+	display: inline-block;
+}
+#koniecfloatleft3 {
+	clear: both;
+	display: block;
+}
+}
+
+/* tablety i telefony */
+@media  (max-width: 768px) {
+.kontakt {
+	position: relative;
+	top: 10px;
+	display: block;
+	text-align: center;
+	width: 100%;
+}
+.kontakty {
+	font-size: 45px;
+}
+.kontakty2 {
+	display: flex;
+	justify-content: center;
+}
+.formularz-pole {
+	width: 470px;
+}
+}
+
+/* mniejsze */
+@media (max-width: 479px) {
+.kontakt {
+	position: relative;
+	top: 10px;
+	display: block;
+	text-align: center;
+	width: 100%;
+}
+.kontakty {
+	font-size: 45px;
+}
+.kontakty2 {
+	display: flex;
+	justify-content: center;
+}
+}
+
+/* mniejsze w razie w */
+@media (max-width: 320px) {
+.kontakt {
+	position: relative;
+	top: 10px;
+	display: block;
+	text-align: center;
+	width: 100%;
+}
+.kontakty {
+	font-size: 45px;
+}
+.kontakty2 {
+	display: flex;
+	justify-content: center;
+}
+}

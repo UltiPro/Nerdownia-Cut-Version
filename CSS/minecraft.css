@@ -1,0 +1,107 @@
+.tesc {
+	height: 100%;
+	margin: 500px;
+	padding-bottom: 200px;
+}
+.fieldset  {
+	background-image: URL("../PICTURES/MINECRAFT/tlofieldset.jpg");
+	-webkit-box-shadow: 2px 2px 15px 6px rgba(0,0,0,1);
+	-moz-box-shadow: 2px 2px 15px 6px rgba(0,0,0,1);
+	box-shadow: 2px 2px 15px 6px rgba(0,0,0,1);
+}
+.fieldset-last {
+	width: 70%;
+	text-align: left;
+	color: white;
+	text-shadow: black 0.1em 0.1em 0.2em;
+	border-radius: 15px;
+	background-color: rgb(0, 0, 0, 0.5);
+	margin-bottom: 125px;
+	background-image: URL("../PICTURES/MINECRAFT/tlofieldset.jpg");
+	-webkit-box-shadow: 2px 2px 15px 6px rgba(0,0,0,1);
+	-moz-box-shadow: 2px 2px 15px 6px rgba(0,0,0,1);
+	box-shadow: 2px 2px 15px 6px rgba(0,0,0,1);
+}
+.mapa3d {
+	text-decoration: none;
+	color: white;
+}
+.mapa3d:hover {
+	color: #3399ff;
+}
+.mapa3dstyl {
+	background-image: URL("../PICTURES/MINECRAFT/mapa3d.jpg");
+	border-radius: 25px;
+}
+.mapa3dstyl:hover {
+	opacity: .8;
+}
+.pobierz {
+	text-decoration: none;
+	color: white;
+}
+.pobierz:hover {
+	color: #33cc33;
+}
+.pobierzstyl {
+	background-image: URL("../PICTURES/MINECRAFT/pobierz.jpg");
+	border-radius: 25px;
+}
+.pobierzstyl:hover {
+	opacity: .8;
+}
+.wylacz {
+	font-size: 1.2em;
+}
+.wylacz:hover {
+	font-size: 1.3em;
+}
+
+
+/* 1470 down */
+@media (max-width: 1470px) {
+.lewy {
+	font-size: 23px;
+}
+}
+
+/* tablety średnie kompy */
+@media (min-width: 992px) and (max-width: 1300px) {
+.lewy {
+	font-size: 20px;
+}
+.fieldset-last {
+	margin-bottom: 0px;
+}
+}
+
+/* Mój telefon */
+/* tablety małe kompy */
+@media (max-width: 991px) {	
+.lewy {
+	font-size: 19px;
+}
+.fieldset-last {
+	margin-bottom: 0px;
+}
+}
+
+/* tablety i telefony */
+@media  (max-width: 775px) {
+.lewy {
+	font-size: 18px;
+}
+.fieldset-last {
+	margin-bottom: 0px;
+}
+}
+
+/* mniejsze */
+@media (max-width: 550px) {
+.lewy {
+	font-size: 18px;
+}
+.fieldset-last {
+	margin-bottom: 0px;
+}
+}
